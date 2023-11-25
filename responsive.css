@@ -1,0 +1,231 @@
+@media screen and (max-width: 1024px) {
+  .main-konten h1 {
+    font-size: 25px;
+  }
+
+  .kontak a i {
+    font-size: 50px;
+  }
+
+  .kontak p {
+    font-size: 13px;
+  }
+
+  .profile figcaption {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .top-wrapper h1 {
+    font-size: 60px;
+  }
+
+  .main-konten {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .konten {
+    width: 100%;
+  }
+
+  aside {
+    display: flex;
+    width: 100%;
+  }
+
+  .profile {
+    height: 30%;
+  }
+
+  nav a {
+    font-size: 20px;
+  }
+
+  .kontak {
+    width: 50%;
+  }
+
+  .main-konten h1 {
+    font-size: 40px;
+  }
+
+  .kontak a i {
+    font-size: 70px;
+  }
+
+  .kontak p {
+    font-size: 25px;
+  }
+
+  .kotak-konten p {
+    font-size: 20px;
+  }
+
+  .porto .tombol {
+    padding: 40px 100px;
+  }
+
+  nav .hamburger {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .top-wrapper h1 {
+    font-size: 30px;
+  }
+
+  .top-wrapper {
+    padding: 30px;
+  }
+
+  .judul-konten h1 {
+    font-size: 30px;
+  }
+
+  .main-konten h1 {
+    font-size: 25px;
+  }
+
+  nav {
+    padding: 30px;
+  }
+
+  nav .navbar {
+    display: none;
+  }
+
+  .sideNav {
+    display: block;
+  }
+
+  .porto .tombol {
+    padding: 20px 100px;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .sideMenu ul {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background-color: #f4f4f4;
+  }
+
+  .sideMenu li {
+    margin: 0;
+    text-align: center;
+  }
+
+  .menu-toggle.active ~ .sideMenu ul {
+    display: flex;
+  }
+
+  .kotak-konten p {
+    font-size: 15px;
+  }
+
+  .about span {
+    font-size: 30px;
+  }
+
+  .bio th {
+    font-size: 15px;
+  }
+
+  .bio td {
+    font-size: 15px;
+  }
+
+  .education li {
+    font-size: 15px;
+  }
+
+  aside {
+    display: block;
+  }
+
+  .konten {
+    width: 100%;
+  }
+
+  .kontak {
+    width: 345px;
+  }
+
+  .porto {
+    height: auto;
+  }
+
+  .porto h1 {
+    font-size: 25px;
+  }
+
+  .porto .tombol {
+    padding: 20px 100px;
+  }
+
+  .konten-porto i {
+    font-size: 100px;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .kontak {
+    width: 295px;
+  }
+
+  .judul {
+    font-size: 25px;
+  }
+
+  .top-wrapper p {
+    margin: 35px;
+  }
+
+  .skills li {
+    font-size: 20px;
+  }
+
+  .skills .progress {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 321px) {
+  .judul {
+    font-size: 20px;
+  }
+
+  .top-wrapper h1 {
+    font-size: 20px;
+  }
+
+  .kontak {
+    width: 240px;
+  }
+
+  .kotak-konten h1 {
+    font-size: 20px;
+  }
+
+  .skills .progress {
+    width: 150px;
+  }
+
+  .konten-porto i {
+    font-size: 70px;
+    padding: 30px 70px;
+  }
+
+  .konten-porto h1 {
+    font-size: 20px;
+  }
+}

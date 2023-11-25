@@ -1,183 +1,219 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portofolio</title>
-    <!-- link css -->
-    <link rel="stylesheet" href="style.css" />
-    <!-- link font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <script src="https://kit.fontawesome.com/3adfa53a08.js" crossorigin="anonymous"></script>
-    <!-- link icon -->
-    <link
-      rel="stylesheet"
-      href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
-    />
-  </head>
 
-  <body>
-    <!-- awal header -->
-    <header>
-      <div class="judul" id="beranda">
-        <h1>Ferrr<span>Site</span></h1>
-      </div>
-      <nav id="navbar">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portofolio</title>
+  <!-- link css -->
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="responsive.css">
+  <!-- link font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <script src="https://kit.fontawesome.com/3adfa53a08.js" crossorigin="anonymous"></script>
+  <!-- link icon -->
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+</head>
+
+<body>
+  <!-- awal header -->
+  <header>
+    <div class="judul" id="beranda">
+      <h1>Ferrr<span>Site</span></h1>
+    </div>
+    <nav id="navbar">
+      <div class="navbar">
         <ul>
-          <li><a href="#beranda"><div class="nav-icon"><i class="fa-solid fa-house"></i></div>Home</a></li>
-          <li><a href="#about-me"><div class="nav-icon"><i class="fa-solid fa-circle-user"></i></div>About Me</a></li>
-          <li><a href="#portofolio"><div class="nav-icon"><i class="fa-solid fa-file-lines"></i></div>Portofolio</a></li>
-          <li><a href="#"><div class="nav-icon"><i class="fa-solid fa-square-phone"></i></div>Contact Me</a></li>
+          <li><a href="#beranda">
+              <div class="nav-icon"><i class="fa-solid fa-house"></i></div>Home
+            </a></li>
+          <li><a href="#about-me">
+              <div class="nav-icon"><i class="fa-solid fa-circle-user"></i></div>About Me
+            </a></li>
+          <li><a href="#portofolio">
+              <div class="nav-icon"><i class="fa-solid fa-file-lines"></i></div>Portofolio
+            </a></li>
+          <li><a href="#">
+              <div class="nav-icon"><i class="fa-solid fa-square-phone"></i></div>Contact Me
+            </a></li>
         </ul>
-      </nav>
-    </header>
-    <!-- akhir header -->
-
-    <!-- awal main -->
-    <main>
-      <!-- awal beranda -->
-      <div class="top-wrapper">
-        <div class="top-title">
-          <h1>MOHAMAD FERDIANSYAH.</h1>
-          <p>PPLG X.2</p>
-          <div class="arrow">
-            <a href="#about-me"
-              ><span class="fa fa-chevron-circle-down"></span>
-            </a>
-          </div>
+      </div>
+      <div class="sideNav">
+        <div class="menu-toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <div class="sideMenu">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Project</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
         </div>
       </div>
-      <!-- akhir beranda -->
+    </nav>
+  </header>
+  <!-- akhir header -->
 
-      <!-- awal judul-konten-about-me -->
-      <div class="judul-konten" id="about-me">
-        <h1 id="typeabout">ABOUT ME.</h1>
+  <!-- awal main -->
+  <main>
+    <!-- awal beranda -->
+    <div class="top-wrapper">
+      <div class="top-title">
+        <h1>MOHAMAD FERDIANSYAH.</h1>
+        <p>PPLG X.2</p>
+        <div class="arrow">
+          <a href="#about-me"><span class="fa fa-chevron-circle-down"></span>
+          </a>
+        </div>
       </div>
-      <!-- akhir judul-konten-about-me -->
+    </div>
+    <!-- akhir beranda -->
 
-      <div class="main-konten">
-        <!-- awal profile -->
-        <aside>
-          <article class="profile kotak-konten">
-            <img src="foto/profile.jpg" alt="profile" />
-            <figcaption>Mohamad Ferdiansyah</figcaption>
-            <p>Student Of Wikrama</p>
-          </article>
+    <!-- awal judul-konten-about-me -->
+    <div class="judul-konten" id="about-me">
+      <h1 id="typeabout"></h1>
+    </div>
+    <!-- akhir judul-konten-about-me -->
 
-          <article class="kontak kotak-konten">
-            <h1>Contact.</h1>
-            <ul>
-              <li>
-                <a href="https://www.instagram.com/ffffer.11/"
-                  ><i class="fa fa-instagram"></i
-                ></a>
-                <p>@ffffer.11</p>
-              </li>
-              <li>
-                <a href="https://wa.me/+6281293045709"
-                  ><i class="fa fa-whatsapp"></i
-                ></a>
-                <p>0812-9304-5709</p>
-              </li>
-              <li>
-                <a href="mailto:ferdikncok@gmail.com"
-                  ><i class="fa fa-envelope"></i
-                ></a>
-                <p>ferdikncok@gmail.com</p>
-              </li>
-            </ul>
-          </article>
-        </aside>
-        <!-- akhir profile -->
+    <div class="main-konten">
+      <!-- awal profile -->
+      <aside>
+        <article class="profile kotak-konten">
+          <img src="foto/profile.jpg" alt="profile" />
+          <figcaption>Mohamad Ferdiansyah</figcaption>
+          <p>Student Of Wikrama</p>
+        </article>
 
-        <!-- awal about -->
-        <div class="konten" id="konten">
-          <article class="about kotak-konten">
-            <h1>Mohamad Ferdiansyah.</h1>
-            <p>
-              <span>Hello</span>, I am a PPLG student at Wikrama Vocational High
-              School and now I'm still in 10th grade.<br />i was the kind of
-              person that enjoyed learning new things in my life, now i'm still
-              learning about HTML, CSS and JS because i want to be a Front End
-              Developer.
-            </p>
-          </article>
+        <article class="kontak kotak-konten">
+          <h1>Contact.</h1>
+          <ul>
+            <li>
+              <a href="https://www.instagram.com/ffffer.11/"><i class="fa fa-instagram"></i></a>
+              <p>@ffffer.11</p>
+            </li>
+            <li>
+              <a href="https://wa.me/+6281293045709"><i class="fa fa-whatsapp"></i></a>
+              <p>0812-9304-5709</p>
+            </li>
+            <li>
+              <a href="mailto:ferdikncok@gmail.com"><i class="fa fa-envelope"></i></a>
+              <p>ferdikncok@gmail.com</p>
+            </li>
+          </ul>
+        </article>
+      </aside>
+      <!-- akhir profile -->
 
-          <article class="bio kotak-konten">
-            <h1>Biodata.</h1>
-            <table>
-              <tr>
-                <th>Name :</th>
-                <td>Mohamad Ferdiansyah</td>
-              </tr>
-              <tr>
-                <th>Age :</th>
-                <td>16</td>
-              </tr>
-              <tr>
-                <th>Date of birth :</th>
-                <td>Bogor, 04 September 2007</td>
-              </tr>
-              <tr>
-                <th>Address :</th>
-                <td>Jln. Sindang Subur Cisarua Bogor</td>
-              </tr>
-            </table>
-          </article>
+      <!-- awal about -->
+      <div class="konten" id="konten">
+        <article class="about kotak-konten">
+          <h1>Mohamad Ferdiansyah.</h1>
+          <p>
+            <span>Hello</span>, I am a PPLG student at Wikrama Vocational High
+            School and now I'm still in 10th grade.<br />i was the kind of
+            person that enjoyed learning new things in my life, now i'm still
+            learning about HTML, CSS and JS because i want to be a Front End
+            Developer.
+          </p>
+        </article>
 
-          <article class="skills kotak-konten">
-            <h1>Skills.</h1>
-            <ul>
-              <li>Basic HTML<i class="fa fa-html5"></i></progress></li>
-              <div class="progress">
-                <div class="progress-value"><p>50%</p></div>
+        <article class="bio kotak-konten">
+          <h1>Biodata.</h1>
+          <table>
+            <tr>
+              <th>Name :</th>
+              <td>Mohamad Ferdiansyah</td>
+            </tr>
+            <tr>
+              <th>Age :</th>
+              <td>16</td>
+            </tr>
+            <tr>
+              <th>Date of birth :</th>
+              <td>Bogor, 04 September 2007</td>
+            </tr>
+            <tr>
+              <th>Address :</th>
+              <td>Jln. Sindang Subur Cisarua Bogor</td>
+            </tr>
+          </table>
+        </article>
+
+        <article class="skills kotak-konten">
+          <h1>Skills.</h1>
+          <ul>
+            <li>Basic HTML<i class="fa fa-html5"></i></progress></li>
+            <div class="progress">
+              <div class="progress-value">
+                <p>50%</p>
               </div>
-              <li>Basic CSS<i class="fa fa-css3-alt"></i></li>
-              <div class="progress">
-                <div class="progress-value"><p>50%</p></div>
-              </div>  
-            </ul>
-          </article>
+            </div>
+            <li>Basic CSS<i class="fa fa-css3-alt"></i></li>
+            <div class="progress">
+              <div class="progress-value">
+                <p>50%</p>
+              </div>
+            </div>
+          </ul>
+        </article>
 
-          <article class="education kotak-konten">
-            <h1>Education.</h1>
-            <ul>
-              <li>TK Pratama Mandiri (2011 - 2014)</li>
-              <li>SDN Cisarua 01 (2014 - 2020)</li>
-              <li>SMPN Cisarua 02 (2020 - 2023)</li>
-              <li>SMK Wikrama Bogor (2023 - 2026)</li>
-            </ul>
-          </article>
-        </div>
-      </div>
-      <!-- akhir about -->
-
-      <!-- awal judul-konten-porto -->
-      <div class="porto-title judul-konten" id="portofolio">
-          <h1 id="typeporto">PORTOFOLIO.</h1>
-      </div>
-      <!-- akhir judul-konten-porto -->
-
-      <div class="main-porto">
-        <article class="porto">
-          <div class="konten-porto">
-            <i class="fa-solid fa-file-lines"></i>
-            <h1>MyProject</h1>
-            <a href="index-porto.html"><div class="tombol"><span class="text">Click Here</span></div></a>
-          </div>
+        <article class="education kotak-konten">
+          <h1>Education.</h1>
+          <ul>
+            <li>TK Pratama Mandiri (2011 - 2014)</li>
+            <li>SDN Cisarua 01 (2014 - 2020)</li>
+            <li>SMPN Cisarua 02 (2020 - 2023)</li>
+            <li>SMK Wikrama Bogor (2023 - 2026)</li>
+          </ul>
         </article>
       </div>
-    </main>
-    <!-- akhir main -->
-    <!-- awal footer -->
-    <footer>
-      <p>Belajar Dasar Pemrograman Web &#169; 2023, Mohamad Ferdiansyah</p>
-    </footer>
-    <!-- akhir footer -->
+    </div>
+    <!-- akhir about -->
 
-    <script src="jees.js"></script>
-  </body>
+    <!-- awal judul-konten-porto -->
+    <div class="porto-title judul-konten" id="portofolio">
+      <h1 id="typeporto">PORTOFOLIO.</h1>
+    </div>
+    <!-- akhir judul-konten-porto -->
+
+    <div class="main-porto">
+      <article class="porto">
+        <div class="konten-porto">
+          <i class="fa-solid fa-file-lines"></i>
+          <h1>MyProject</h1>
+          <a href="index-porto.html">
+            <div class="tombol"><span class="text">Click Here</span></div>
+          </a>
+        </div>
+      </article>
+    </div>
+  </main>
+  <!-- akhir main -->
+  <!-- awal footer -->
+  <footer>
+    <div class="footer-basic">
+      <footer>
+        <div class="social"><a href="#"><i class="fa fa-instagram"></i></a><a href="#"><i
+              class="fa fa-whatsapp"></i></a><a href="#"><i class="fa fa-github"></i></a><a href="#"><i
+              class="fa fa-envelope"></i></a></div>
+        <ul class="list-inline">
+          <li class="list-inline-item"><a href="#">Home</a></li>
+          <li class="list-inline-item"><a href="#">Services</a></li>
+          <li class="list-inline-item"><a href="#">About</a></li>
+          <li class="list-inline-item"><a href="#">Terms</a></li>
+          <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+        </ul>
+        <p class="copyright">Company Name © 2018</p>
+      </footer>
+    </div>
+  </footer>
+  <!-- akhir footer -->
+
+  <script src="jees.js"></script>
+</body>
+
 </html>
-
-
